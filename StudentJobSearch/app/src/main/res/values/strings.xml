@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudentJobSearch</string>
+    <string name="title_activity_test_search_test">TestSearchTest</string>
+    <string name="title_activity_search_jobs">SearchJobs</string>
+    <string name="hint_text">Keywords, Job Title or Company</string>
+    <string name="coffee_shop_image">Coffee Shop Image</string>
+    <string name="content_desc">generic content description</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="logout_text">Logout</string>
+</resources>

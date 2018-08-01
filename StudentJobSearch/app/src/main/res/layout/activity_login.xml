@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_background"
+    tools:context=".Login"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/sjs_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:scrollHorizontally="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="255dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/signInButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register_box_selector"
+        android:text="REGISTER"
+        android:textColor="@drawable/registerbox_text_color_selector" />
+
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/login_box_selector"
+        android:text="SIGN IN"
+        android:textColor="@drawable/text_color_selector" />
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="249dp"
+        android:layout_height="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="179dp"
+        android:text="Email Address"
+        android:textColor="@color/colorWhite"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/emailAddress"
+        android:layout_marginTop="69dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:scrollHorizontally="true"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="249dp"
+        android:layout_height="18dp"
+        android:layout_below="@id/emailInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Password"
+        android:textColor="@color/colorWhite"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+
+
+</android.widget.RelativeLayout>

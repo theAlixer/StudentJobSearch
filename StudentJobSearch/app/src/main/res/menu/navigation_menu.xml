@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/DrawerIconStyle">
+
+
+    <item android:title="My Account"
+        android:id="@+id/nav_account"/>
+
+    <item android:title="Saved Searches"
+        android:id="@+id/nav_saved_searches"/>
+
+    <item android:title="Settings"
+        android:id="@+id/nav_settings"/>
+</menu>

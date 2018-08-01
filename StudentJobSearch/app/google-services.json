@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "720104684351",
+    "firebase_url": "https://sjs-test-200a3.firebaseio.com",
+    "project_id": "sjs-test-200a3",
+    "storage_bucket": "sjs-test-200a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720104684351:android:09acf635bf54859e",
+        "android_client_info": {
+          "package_name": "com.example.tristam.studentjobsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720104684351-05tv490mqartmasf43q1mo31qfsaepn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0S-ZzLbLdPZ3sHW-F4s5CyCZvldLdqE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
