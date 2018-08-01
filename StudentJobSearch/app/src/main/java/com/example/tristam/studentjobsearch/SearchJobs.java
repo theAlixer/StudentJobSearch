@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 
 import com.google.firebase.auth.FirebaseAuth;
-
+publice class nasty;
 public class SearchJobs extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
