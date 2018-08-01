@@ -19,6 +19,7 @@ public class SearchJobs extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle mToggle;
+    public sugma balls;
 
     private String testString;
     public String ligma;
